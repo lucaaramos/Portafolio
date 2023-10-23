@@ -1,0 +1,72 @@
+
+/* Estilo para el encabezado y la barra de navegación */
+header {
+     /* Cambia el color de fondo del encabezado */
+    color: #fff; /* Cambia el color del texto */
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin: 0 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+/* .home{
+  background-image: url('https://static.vecteezy.com/system/resources/previews/005/441/523/non_2x/abstract-white-and-gray-gradient-background-with-geometric-shape-illustration-vector.jpg'); 
+  background-size: cover;
+    
+} */
+
+/* Estilo para la sección "Quién soy" */
+.quien-soy-section {
+/* background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url('https://img.freepik.com/vector-premium/fondo-degradado-colores-blancos-fondo-pantalla-o-banner_44621-966.jpg'); */
+  /* background-image: url('https://static.vecteezy.com/system/resources/previews/005/441/523/non_2x/abstract-white-and-gray-gradient-background-with-geometric-shape-illustration-vector.jpg');  */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.contenido-quien-soy {
+   /* Agrega un fondo semitransparente */
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.proyectos-button {
+  background-color: #f85a5a; /* Cambia el color de fondo del botón */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  
+}
+
+.proyectos-button:hover {
+  background-color: #e53a3a; /* Cambia el color de fondo al pasar el mouse */
+}
