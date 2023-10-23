@@ -28,7 +28,7 @@
   }
   
   .header__logo-container:hover {
-    color: aqua; /* Asegúrate de definir $themeClrPrimary en tus estilos */
+    color: rgb(242, 12, 12); /* Asegúrate de definir $themeClrPrimary en tus estilos */
   }
       
       .header__logo-img-cont {
@@ -37,7 +37,7 @@
         border-radius: 50px;
         overflow: hidden;
         margin-right: 1.5rem;
-        background: aqua; /* Asegúrate de definir $themeClrPrimary en tus estilos */
+        background: rgb(242, 12, 12) /* Asegúrate de definir $themeClrPrimary en tus estilos */
       }
       
       .header__logo-img {
@@ -74,7 +74,7 @@
       }
       
       .header__link:hover {
-        color: aqua; /* Asegúrate de definir $themeClrPrimary en tus estilos */
+        color: rgb(242, 12, 12); /* Asegúrate de definir $themeClrPrimary en tus estilos */
       }
       
       .header__main-ham-menu-cont {
@@ -120,7 +120,7 @@
   }
   
   .header__link:hover {
-    color: rgb(63, 13, 200); /* Asegúrate de definir $themeClrPrimary en tus estilos */
+    color: rgb(242, 12, 12); /* Asegúrate de definir $themeClrPrimary en tus estilos */
     cursor: pointer;
   }
   

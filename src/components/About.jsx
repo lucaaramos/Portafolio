@@ -31,7 +31,6 @@ export default function About() {
     </div>
     <div className='div2' data-aos='fade-left'>
   <h2>My Skills</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, voluptates!</p>
   <div className='skills-icons' >
   <div className='row'
     >

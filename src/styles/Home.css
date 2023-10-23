@@ -56,7 +56,7 @@ p {
 }
 
 .proyectos-button {
-  background-color: #f85a5a; /* Cambia el color de fondo del botón */
+  background-color: rgb(242, 12, 12); /* Cambia el color de fondo del botón */
   color: #fff;
   border: none;
   padding: 10px 20px;

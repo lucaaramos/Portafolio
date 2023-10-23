@@ -11,10 +11,9 @@
 
 .about-content {
   text-align: center;
-  
   padding: 20px;
   border-radius: 10px;
-  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  
   margin: 20px;
 }
 
@@ -30,14 +29,14 @@
 }
 .div1{
   width: 50%;
-  
-  
-  
-  
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  border-radius: 10px;  
 }
 .div2{
   width: 50%;
-  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  box-shadow: 10px 10px 10px rgb(242, 12, 12);
+  border-radius: 10px;  
+  background-color: #fff;
   
 }
 
@@ -71,7 +70,7 @@ h2 {
 
 /* Estilos para la descripción de la sección de habilidades */
 .skills p {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .skills-icons {
