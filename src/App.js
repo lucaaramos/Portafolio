@@ -8,7 +8,7 @@ import Home from './components/Home';
 
 function App() {
   const [currentSection, setCurrentSection] = useState(0);
-
+  // const {darkMode, toggleDarkMode } = useDarkMode() 
   const handleScroll = () => {
     const windowHeight = window.innerHeight;
     const scrollTop = window.scrollY;
@@ -26,13 +26,16 @@ function App() {
   }, []);
 
   return (
+    
     <div className="App">
+    
       <Header />
       <Home style={{ transform: `translateY(-${currentSection * 100}vh)` }} />
       <About style={{ transform: `translateY(-${currentSection * 100}vh)` }} />
       <Projects style={{ transform: `translateY(-${currentSection * 100}vh)` }} />
       <Contact style={{ transform: `translateY(-${currentSection * 100}vh)` }} />
     </div>
+    
   );
 }
 

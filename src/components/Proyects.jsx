@@ -3,6 +3,7 @@ import Project from './Proyect'; // Asegúrate de importar tu componente de proy
 import '../styles/Proyects.css'
 import astrogamer from '../assets/astrogamer.jpg'
 import foodapp from '../assets/foodapp.png'
+import boyero from '../assets/boyerodeberna.jpg'
 const projectsData = [
   {
     id: 1,
@@ -23,28 +24,25 @@ const projectsData = [
     technologies: ['React',"NodeJS",'Express','Postgres', "CSS"],
   },
   {
-    id: 2,
+    id: 3,
     title: 'Club Argentino Boyero de Berna',
     description: 'Descripción breve del proyecto 2.',
-    imageUrl: foodapp,
-    detailsLink: '/proyecto-2', // Enlaza a la página de detalles del proyecto
+    imageUrl: boyero,
+    detailsLink: '/proyecto-2',
+    githubLink: "https://github.com/AlejoAvendanio/berna", // Enlaza a la página de detalles del proyecto
     technologies: ['React',"NodeJS",'Express', 'MySQL', "CSS"],
   },
-  {
-    id: 2,
-    title: 'Club Argentino Boyero de Berna',
-    description: 'Descripción breve del proyecto 2.',
-    imageUrl: foodapp,
-    detailsLink: '/proyecto-2', // Enlaza a la página de detalles del proyecto
-    technologies: ['React',"NodeJS",'Express', 'MySQL', "CSS"],
-  },
+  
   
 ];
 
 export default function Projects() {
   return (
     <section className='projects' id="proyects">
-    <div>
+    <div data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="200"
+     data-aos-offset="0">
       <h2 className='h2'>Mis Proyectos</h2>
       <div className="projects-container">
         {projectsData.map((project) => (

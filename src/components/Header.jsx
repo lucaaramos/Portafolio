@@ -1,14 +1,29 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 // Importa los estilos CSS
 import '../styles/Header.css'
 import logo from '../assets/foto carnet.jpg'
 
+
 export default function Header() {
   const scrollToSection = (sectionId) => {
     document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
+
+    
   }
+  
+      const [headerBackground, setHeaderBackground] = useState(false);
+  
+    useEffect(() => {
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 50) {
+          setHeaderBackground(true);
+        } else {
+          setHeaderBackground(false);
+        }
+      });
+    }, []);
   return (
-    <header className="header">
+    <header className={`header ${headerBackground ? 'header--scrolled' : ''}`}>
       <div className="header__content">
         <div className="header__logo-container">
           <div className="header__logo-img-cont">
