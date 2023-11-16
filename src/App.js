@@ -5,6 +5,7 @@ import About from './components/About';
 import Projects from './components/Proyects';
 import Contact from './components/Contact';
 import Home from './components/Home';
+import Footer from './components/Footer';
 
 function App() {
   const [currentSection, setCurrentSection] = useState(0);
@@ -27,13 +28,15 @@ function App() {
 
   return (
     
-    <div className="App">
-    
+    <div>
       <Header />
+      <div className='App'>
       <Home style={{ transform: `translateY(-${currentSection * 100}vh)` }} />
       <About style={{ transform: `translateY(-${currentSection * 100}vh)` }} />
       <Projects style={{ transform: `translateY(-${currentSection * 100}vh)` }} />
       <Contact style={{ transform: `translateY(-${currentSection * 100}vh)` }} />
+      <Footer />
+      </div>
     </div>
     
   );

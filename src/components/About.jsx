@@ -16,7 +16,7 @@ export default function About() {
   return (
     <section id='about' className='about-container'>
     <div className='about-content' data-aos='flip-left'>
-        <h2>About Me</h2>
+        <h2 className='h2'>About Me</h2>
         <p>Here you will find more information about me, what i do, and my current skills mostly in terms of programming and technology</p>
     </div>
     <br></br>

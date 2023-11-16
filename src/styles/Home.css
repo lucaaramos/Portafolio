@@ -1,50 +1,66 @@
 /* Estilo para el encabezado y la barra de navegación */
-header {
+/* header {
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff; 
   padding: 10px 0;
   text-align: center;
-}
+  height: 120px;
+} */
 .home {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
   height: 100vh;
-  animation: backgroundAnimation 20s linear infinite ;
-  color: white; /* Duración y tipo de animación */
-  background-color: rgba(0, 0, 0, 0.5);
+  animation: backgroundAnimation 20s linear infinite;
+  color: rgb( 242, 242, 242);
+  /* background-image: url('C:\Users\lucar\Desktop\portafolio\client\src\assets\fondo1 (2).jpg'); */
+  
 
 }
 
-@keyframes backgroundAnimation {
+ @keyframes backgroundAnimation {
   0% {
-    background: url('https://wallpapersmug.com/download/3840x2400/c3c43f/matrix-code-numbers-green.jpg');
+    background: url('C:\Users\lucar\Desktop\portafolio\client\src\assets\fondo1 (2).jpg');
+    background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
+    
   }
   
   20% {
-    background: url('C:\Users\lucar\Desktop\portafolio\client\src\assets\wallpapersden.com_minimal-glowing-code-binary_3840x2160.jpg');
+    background: url('C:\Users\lucar\Desktop\portafolio\client\src\assets\clement-helardot-95YRwf6CNw8-unsplash.jpg');
     background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
     
 
   }
   40% {
-    background: url('https://images.wallpaperscraft.com/image/single/binary_code_numbers_programming_114956_3840x2400.jpg');
+    background: url('C:\Users\lucar\Desktop\portafolio\client\src\assets\fondo3.jpg');
     background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
     
     
   }
   80% {
-    background: url('https://tecnologiaresponsable.com/wp-content/uploads/2023/07/grafico-computadora-futurista-ia-generativa-rostro-humano-brillante-scaled.jpg');
+    background: url('C:\Users\lucar\Desktop\portafolio\client\src\assets\fondo1 (2).jpg');
     background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
     
   }
   100% {
-    background: url('https://tecnologiaresponsable.com/wp-content/uploads/2023/07/grafico-computadora-futurista-ia-generativa-rostro-humano-brillante-scaled.jpg');
-    background-color: rgba(0, 0, 0, 0.5);
+    background: url('C:\Users\lucar\Desktop\portafolio\client\src\assets\fondo4.jpg');
+    background-size: cover;
     
-  }
+    
+   
+  } 
+} 
+
+
+.section{
+  display: flex;
+  flex-direction: column;
 }
+
 
 .nav-list {
   list-style: none;
@@ -59,21 +75,25 @@ header {
   color: #fff;
   padding: 100px 0;
   text-align: center;
+  
 }
 
 .contenido-quien-soy {
   border-radius: 10px;
   padding: 20px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 200px;
+  
 }
 
-h1 {
-  font-size: 36px;
+.h1 {
+  font-size: 80px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-p {
-  font-size: 20px;
+.h3{
+  font-family: 'Times New Roman', Times, serif;
+
 }
 
 .proyectos-button {
@@ -90,3 +110,40 @@ p {
 .proyectos-button:hover {
   background-color: #e53a3a; /* Cambia el color de fondo al pasar el mouse */
 }
+
+.boton-about-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  
+}
+
+.slide-button{
+  background-color: transparent;
+  animation: slideAnimation 20s linear infinite;
+  border-radius: 10px;
+  cursor: pointer;
+  animation: moveUp 2s alternate infinite; /* Duración de la animación y tipo de repetición */
+  margin-bottom: 0;
+}
+
+
+@keyframes moveUp {
+  0% {
+      transform: translateY(0); /* Posición inicial */
+  }
+
+  100% {
+      transform: translateY(20px); /* Posición final (ajusta la distancia que deseas mover) */
+  }
+}
+
+
+.boton-about-container img{
+  width: 70%;
+  max-width: 100px;
+  height: auto;
+  filter: brightness(80%) grayscale(90%);
+  
+}
+

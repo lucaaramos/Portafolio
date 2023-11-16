@@ -1,14 +1,26 @@
 .App {
   text-align: center;
+  /* background-image: url('https://www.edix.com/es/wp-content/uploads/sites/2/2022/06/2tipos-de-programadores.jpg');
+  height: 100vh;
+  overflow-y: scroll; */
 }
-body{
+body {
   margin: 0;
-  /* background-image: url('https://wallpapercave.com/wp/wp12461001.png');    */
   
+  
+  /* background-image: url('https://t4.ftcdn.net/jpg/05/39/21/05/360_F_539210563_dmX1bRNOinwmtFfy1Y7UFQHMz4fHKTEL.jpg'); */
+  /* background-attachment: fixed; */
+  /* background-size: auto; */
+  /* background-position: center; */
+
+  /* animation: backgroundAnimatio 20s linear infinite; */
+  /* color: white; */
+}
+
+
 
   
   
-}
 
 
 @media (prefers-reduced-motion: no-preference) {
@@ -17,7 +29,7 @@ body{
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -26,7 +38,7 @@ body{
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
@@ -44,12 +56,12 @@ body{
 
 
 
-.App section {
+ section {
   display: flex;
   align-items: center;
   justify-content: center;
   /* width: 100vw; */
-  height: 100vh;
+  height: 80vh;
   transition: transform 0.3s; /* Agrega una transición para suavizar el desplazamiento */
 }
 /* Estilo para el modo oscuro */

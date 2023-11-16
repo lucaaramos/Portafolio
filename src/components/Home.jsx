@@ -10,13 +10,18 @@ export default function Home() {
       }
   return (
     <div className="home" >
-      <section id="quien-soy">
+      <section className='section' id="quien-soy">
         <div className="contenido-quien-soy">
-          <h1 data-aos="zoom-in-right">Desarrollador FullStack</h1>
-          <p data-aos="zoom-in-left">Descripción sobre ti y tus habilidades.</p>
+          <h1  className='h1' data-aos="zoom-in-right">Luca Ramos</h1>
+          <h3 className='h3' data-aos="zoom-in-left">Full Stack Developer</h3>
           <button onClick={() => scrollToSection('proyects')} className='proyectos-button'>
                 Projects
               </button>
+        </div>
+        <div className='boton-about-container'>
+          <button className='slide-button' onClick={() => scrollToSection('about')}>
+            <img className='img'src='https://sweatingassets.bh/image/Logo/Arrow.png' alt='' style={{width: 100}}></img>
+          </button>
         </div>
       </section>
     </div>

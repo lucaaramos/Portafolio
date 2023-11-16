@@ -1,20 +1,29 @@
-/* src/styles/About.css */
-
 .about-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
-  /* border: 2px black solid; */
-  /* Agrega un espacio alrededor del contenido */
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent);
 }
 
 .about-content {
   text-align: center;
   padding: 20px;
   border-radius: 10px;
-  
   margin: 20px;
+  /* background-color: rgba(255, 255, 255, 0.9); */
+  
+  font-family: Arial, sans-serif;
+  border: 2px solid #ccc; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  margin: 20px 0;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+h3 {
+  font-size: 2em;
+  
+
 }
 
 .skills {
@@ -23,52 +32,45 @@
   align-items: center;
   padding: 20px;
   border-radius: 10px;
-  color: black;
-  /* margin-right: 20px; */
-  
+  /* margin: 20px 0; */
+  padding: 20px;  
 }
 .div1{
   width: 50%;
-  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   border-radius: 10px;  
+  margin: 10px;
 }
 .div2{
   width: 50%;
-  box-shadow: 10px 10px 10px rgb(242, 12, 12);
-  border-radius: 10px;  
-  background-color: #fff;
+  /* box-shadow: 10px 10px 10px rgb(242, 12, 12);
+  border-radius: 10px;   */
+  box-shadow: 0 0 20px rgba(242, 12, 12, 0.5); 
+  border: 2px solid rgb(242, 12, 12); 
+  margin: 10px;
   
 }
 
-/* Estilo para títulos */
-h2 {
-  font-size: 24px;
-  color: black; /* Color de texto personalizado */
+.h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
 }
 
-
-
-/* Estilo para el contenedor principal */
 #about {
   padding: 100px 0;
   text-align: center;
 }
 
-/* Estilos para el título de la sección de habilidades */
+
 .skills h2 {
-  color: black; /* Color de texto personalizado */
+  color: white;
   margin-top: 0;
+
 }
 
-/* Estilos para el párrafo de la sección de habilidades */
-
-
-/* Estilos para el encabezado de la sección de habilidades */
 .skills h2 {
   font-size: 24px;
 }
 
-/* Estilos para la descripción de la sección de habilidades */
 .skills p {
   font-size: 20px;
 }
