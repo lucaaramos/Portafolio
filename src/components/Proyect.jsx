@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Proyects.css';
+// import '../styles/ej.css';
 
 export default function Project({ project }) {
   const { title, description, imageUrl, detailsLink, technologies, githubLink } = project;

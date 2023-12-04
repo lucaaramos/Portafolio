@@ -6,6 +6,7 @@ import github from '../assets/4202098_github_code_developer_logo_icon (1).png'
 import linkedin from '../assets/317750_linkedin_icon.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import '../styles/ej.css'
 AOS.init();
 export default function Contact() {
   const form = useRef();
