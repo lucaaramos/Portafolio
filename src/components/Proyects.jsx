@@ -42,17 +42,6 @@ const projectsData = [
 ];
 
 export default function Projects() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    prevArrow: <button className='slick-prev'>----</button>,
-    nextArrow: <button className='slick-next'>----</button>
-
-  };
-
   return (
     <section className='projects' id='proyects'>
     <div className='position'>
