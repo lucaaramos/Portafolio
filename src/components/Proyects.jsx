@@ -1,12 +1,10 @@
 import React from 'react';
-import Project from './Proyect'; // Asegúrate de importar tu componente de proyecto
 // import '../styles/Proyects.css'
 import astrogamer from '../assets/astrogamer.jpg'
 import foodapp from '../assets/foodapp.png'
 import boyero from '../assets/boyerodeberna.jpg'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import Slider from 'react-slick';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import '../styles/ej.css'

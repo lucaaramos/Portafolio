@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from 'react';
-// Importa los estilos CSS
 import '../styles/Header.css'
 import logo from '../assets/foto carnet.jpg'
 
