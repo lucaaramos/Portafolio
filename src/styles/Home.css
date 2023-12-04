@@ -20,7 +20,7 @@
 
  @keyframes backgroundAnimation {
   0% {
-    background: url('C:\Users\lucar\Desktop\portafolio\client\src\assets\fondo.jpg');
+    background: url('client\src\assets\fondo.jpg');
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
     
@@ -41,7 +41,7 @@
     
   }
   80% {
-    background: url('C:\Users\lucar\Desktop\portafolio\client\src\assets\fondo.jpg');
+    background: url('client\src\assets\fondo.jpg');
     background-color: rgba(0, 0, 0, 0.5);
     background-size: cover;
     
