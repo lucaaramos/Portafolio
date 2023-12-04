@@ -18,42 +18,43 @@
 
 }
 
- @keyframes backgroundAnimation {
+:root {
+  --image1: url('../assets/fondo.jpg');
+  --image2: url('../assets/clement-helardot-95YRwf6CNw8-unsplash.jpg');
+  --image3: url('../assets/fondo3.jpg');
+  --image4: url('../assets/fondo4.jpg');
+}
+
+@keyframes backgroundAnimation {
   0% {
-    /* background-image: url('C:\Users\lucar\Desktop\portafolio\client\src\assets\fondo.jpg'); */
+    background-image: var(--image1);
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
-    
   }
   
   20% {
-    background: url('C:\Users\lucar\Desktop\portafolio\client\src\assets\clement-helardot-95YRwf6CNw8-unsplash.jpg');
+    background: var(--image2);
     background-color: rgba(0, 0, 0, 0.5);
     background-size: cover;
-    
-
   }
+  
   40% {
-    background: url('C:\Users\lucar\Desktop\portafolio\client\src\assets\fondo3.jpg');
+    background: var(--image3);
     background-color: rgba(0, 0, 0, 0.5);
     background-size: cover;
-    
-    
   }
+  
   80% {
-    background: url('C:\Users\lucar\Desktop\portafolio\client\src\assets\fondo.jpg');
+    background: var(--image1);
     background-color: rgba(0, 0, 0, 0.5);
     background-size: cover;
-    
   }
+  
   100% {
-    background: url('C:\Users\lucar\Desktop\portafolio\client\src\assets\fondo4.jpg');
+    background: var(--image4);
     background-size: cover;
-    
-    
-   
   } 
-} 
+}
 
 
 .section{
