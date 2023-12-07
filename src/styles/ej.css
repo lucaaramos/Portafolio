@@ -47,21 +47,15 @@ background-color: #3a3544;
 
   .accordion li .content {
     position: absolute;
-    top: 0;
     left: 0;
     right: 0;
-    bottom: 50;
+    bottom: 0;
     z-index: 1;
-    color: #fff;
     padding: 15px;
-    background: #02022e;
-    background: linear-gradient(
-      0deg,
-      rgb(0 0 0 / 70%) 10%,
-      rgb(255 255 255 / 0%) 100%
-    );
-    opacity: 0;
+    background-color: #e0e0e0;
     visibility: hidden;
+    display: flex;
+    flex-direction: column;
   }
   
   .accordion li .content span {
@@ -122,4 +116,19 @@ background-color: #3a3544;
 display: flex;
 align-items: center;
 justify-content: space-around;
+}
+
+.link{
+  margin: 10px;
+  text-decoration: none;
+  color: #3a3544;
+}
+
+.link:hover{
+  background-color: #3a3544;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.1);
+  color: white;
+
 }

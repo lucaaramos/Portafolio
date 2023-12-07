@@ -10,11 +10,11 @@ export default function Home() {
       }
   return (
     <div className="home" >
-      <section className='section' id="quien-soy">
+      <section className='section' id="home">
         <div className="contenido-quien-soy">
-          <h1  className='h1' data-aos="zoom-in-right">Luca Ramos</h1>
+          <h1  className='name' data-aos="zoom-in-right">Luca Ramos</h1>
           <h3 className='h3' data-aos="zoom-in-left">Full Stack Developer</h3>
-          <button onClick={() => scrollToSection('proyects')} className='proyectos-button'>
+          <button onClick={() => scrollToSection('projects')} className='proyectos-button'>
                 Projects
               </button>
         </div>

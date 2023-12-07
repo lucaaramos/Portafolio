@@ -1,11 +1,5 @@
 /* Estilo para el encabezado y la barra de navegación */
-/* header {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff; 
-  padding: 10px 0;
-  text-align: center;
-  height: 120px;
-} */
+
 .home {
   background-attachment: fixed;
   background-size: cover;
@@ -14,7 +8,7 @@
   animation: backgroundAnimation 20s linear infinite;
   color: rgb( 242, 242, 242);
   /* background-image: url('C:\Users\lucar\Desktop\portafolio\client\src\assets\fondo1 (2).jpg'); */
-  
+  /* width: 200vh; */
 
 }
 
@@ -60,6 +54,7 @@
 .section{
   display: flex;
   flex-direction: column;
+  /* width: 80vh; */
 }
 
 
@@ -87,7 +82,7 @@
   
 }
 
-.h1 {
+.name {
   font-size: 80px;
   font-family: 'Times New Roman', Times, serif;
 }

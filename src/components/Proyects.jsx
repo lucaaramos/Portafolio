@@ -7,7 +7,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-import '../styles/ej.css'
+import '../styles/ej.css';
 AOS.init();
 const projectsData = [
   {
@@ -43,7 +43,7 @@ const projectsData = [
 
 export default function Projects() {
   return (
-    <section className='projects' id='proyects'>
+    <section className='projects' id='projects'>
     <div className='position'>
       <div className='information'>
         <h2 className='h2'>My Projects</h2>
@@ -55,11 +55,9 @@ export default function Projects() {
         <li key={project.id}>
           <img src={project.imageUrl} alt={project.title} />
           <div className="content">
-          <span>
-            <h3>{project.title}</h3>
-            <a href={project.detailsLink} target="_blank" rel="noopener noreferrer">Deploy</a>
-            <a href={project.githubLink} target="_blank" rel="noopener noreferrer">Github</a>
-          </span>
+            <h3 className='title'>{project.title}</h3>
+            <a className='link' href={project.detailsLink} target="_blank" rel="noopener noreferrer">Deploy</a>
+            <a  className='link' href={project.githubLink} target="_blank" rel="noopener noreferrer">Github</a>
           </div>
         </li>
       ))}

@@ -1,12 +1,11 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import '../styles/Contact.css'; // Asegúrate de importar tu archivo CSS de estilos.
-import cv from '../assets/CV Luca-R.pdf';
-import github from '../assets/4202098_github_code_developer_logo_icon (1).png'
-import linkedin from '../assets/317750_linkedin_icon.png'
+import cv from '../assets/Luca Ramos CV.pdf';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import '../styles/ej.css'
+
 AOS.init();
 export default function Contact() {
   const form = useRef();
@@ -28,16 +27,7 @@ export default function Contact() {
 
   return (
     <div className="contact-container">
-    <div className='icons-contact'>
-    <a href="https://github.com/lucaaramos" target="_blank" rel="noopener noreferrer">
-    <img src={github} className='img-icons' alt="GitHub" />
-  </a>
-  <a href="https://www.linkedin.com/in/luca-ramos-881038215/" target="_blank" rel="noopener noreferrer">
-    <img src={linkedin} className='img-icons' alt="LinkedIn" />
-  </a>
-  
-
-    </div>
+    
       <form id="contact" ref={form} onSubmit={sendEmail} className="contact-form" data-aos="zoom-in-right">
         <a href={cv} download="LucaRamos-CV.pdf" className="download-link">
           Download CV
