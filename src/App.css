@@ -18,7 +18,14 @@ body {
 
 
 
-  
+  /* Estilos para ajustar el ancho en dispositivos móviles */
+@media (max-width: 768px) {
+  body {
+    max-width: 100%; 
+    
+    
+  }
+}
   
 
 
@@ -61,17 +68,5 @@ body {
   justify-content: center;
   /* width: 100vw; */
   height: 80vh;
-  transition: transform 0.3s; /* Agrega una transición para suavizar el desplazamiento */
-}
-/* Estilo para el modo oscuro */
-.dark-mode {
-  background-color: #222; /* Cambia el color de fondo en el modo oscuro */
-  color: #fff; /* Cambia el color del texto en el modo oscuro */
-}
-
-/* Estilo para otros componentes en modo oscuro */
-.dark-mode .section {
-  background-color: #333;
-  color: #fff;
-  /* Otros estilos para componentes en modo oscuro */
+  transition: transform 0.3s;
 }

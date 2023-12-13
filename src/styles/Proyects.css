@@ -2,18 +2,18 @@
     text-align: center;
   /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent); */
   background-color: #3a3544;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
   }
   
-  .projects-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 1rem;
-    background-color: rgba(0, 0, 0, 0.5);
-    
-    padding: 10px;
+  /* .projects-container {
 
-  }
+  } */
 
   .project:hover {
     transform: scale(1.05);
@@ -22,10 +22,7 @@
     cursor: pointer;
   }
   
-  .project:hover .project__title {
-    color: rgb(242, 12, 12); /* Cambia el color del título cuando se pasa el mouse */
-  }
-  
+
   .project a {
     display: inline-block;
     padding: 0.5rem 1rem;
@@ -51,6 +48,7 @@
     text-align: center;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1); 
     height: 450px;
+    width: calc(33.33% - 40px);
     
 }
     
@@ -73,26 +71,6 @@
       
     }
   
-    
-    .project__link {
-      display: inline-block;
-      padding: 5px 20px;
-      margin: 10px;
-      font-size: 1rem;
-      font-weight: bold;
-      text-align: center;
-      text-decoration: none;
-      color: #fff;
-      background-color: #007BFF; 
-      border: 1px solid #007BFF; 
-      border-radius: 5px;
-      transition: background-color 0.3s, border-color 0.3s;
-    }
-  
-    .project__link:hover {
-      background-color: #0056b3; 
-      border-color: #0056b3; 
-    }
     .information{
       display: flex;
       flex-direction: column;
@@ -107,7 +85,6 @@
        .info{
         font-size: 1.2rem;
         color: #666;
-        
     }
 
 .position{
@@ -117,55 +94,13 @@
 }
 
 
-.slider {
-  width: 60%; 
-  max-width: 600px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
 
-}
 
 .h2{
   font-size: 1.8rem;
   color: #333;
   margin-bottom: 15px;
 }
-
-
-.slick-list{
-  width: 100%;
-}
-
-.slick-prev,
-.slick-next {
-  font-size: 35px;
-  color: white;
-  background-color: black;
-  
-  
-}
-
-
-.slick-prev:hover,
-.slick-next:hover {
-  color: #e53a3a; 
-  background-color: black;
-
-}
-
-
-
-.slick-dots li button:before {
-  font-size: 12px; 
-  color: #fff; 
-}
-
-.slick-dots li.slick-active button:before {
-  color: #e53a3a; 
-}
-
 
 .content {
   font-family: Arial, sans-serif; /* Cambia la fuente según prefieras */
@@ -208,4 +143,23 @@
 .content ul li {
   font-size: 0.9rem; /* Tamaño de la lista de tecnologías */
   margin-bottom: 5px;
+}
+
+
+
+/* Media queries para tablet y celular */
+@media only screen and (max-width: 768px) {
+  .projects-container {
+    padding: 5px; /* Ajuste de padding para tamaños de pantalla más pequeños */
+  }
+
+  .project {
+    width: calc(50% - 40px); /* Mostrar 2 proyectos por fila en tablet */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .project {
+    width: calc(100% - 40px); /* Mostrar 1 proyecto por fila en celular */
+  }
 }

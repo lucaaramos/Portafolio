@@ -8,6 +8,7 @@ background-color: #3a3544;
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     height: 400px;
     gap: 16px;
     transition: 0.3s;
@@ -20,7 +21,8 @@ background-color: #3a3544;
   .accordion li {
     position: relative;
     overflow: hidden;
-    flex: 0 0 80px;
+    flex: 100%;
+    max-width: 300px;
     border-radius: 50px;
     opacity: 0.75;
     cursor: pointer;
@@ -131,4 +133,19 @@ justify-content: space-around;
   transform: scale(1.1);
   color: white;
 
+}
+
+/* Media queries para tablet */
+@media only screen and (min-width: 768px) {
+  .accordion li {
+    flex: 0 0 45%; /* Mostrar 2 elementos por fila en tablets */
+    max-width: none; /* Ancho máximo ilimitado */
+  }
+}
+
+/* Media queries para pantallas más grandes */
+@media only screen and (min-width: 1200px) {
+  .accordion li {
+    flex: 0 0 30%; /* Mostrar 3 elementos por fila en pantallas grandes */
+  }
 }
