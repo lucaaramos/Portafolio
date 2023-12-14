@@ -3,6 +3,7 @@ import React from 'react';
 import astrogamer from '../assets/astrogamer.jpg'
 import foodapp from '../assets/foodapp.png'
 import boyero from '../assets/boyerodeberna.jpg'
+import pokedex from '../assets/pokedexball.jpg'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import AOS from 'aos';
@@ -38,6 +39,15 @@ const projectsData = [
     githubLink: "https://github.com/AlejoAvendanio/berna", // Enlaza a la página de detalles del proyecto
     technologies: ['React',"NodeJS",'Express', 'MySQL', "CSS"],
   },
+  {
+    id: 4,
+    title: 'Pokedex',
+    description: 'Descripción breve del proyecto 2.',
+    imageUrl: pokedex,
+    detailsLink: '/proyecto-2',
+    githubLink: "https://github.com/AlejoAvendanio/berna", // Enlaza a la página de detalles del proyecto
+    technologies: ["TypeScript",'Express', 'MySQL', "CSS"],
+  }
   
   
 ];
