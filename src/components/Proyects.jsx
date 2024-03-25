@@ -26,7 +26,7 @@ const projectsData = [
     title: 'Food App',
     description: 'Descripción breve del proyecto 2.',
     imageUrl: foodapp,
-    detailsLink: '/proyecto-2',
+    detailsLink: 'https://github.com/lucaaramos/PI-Foods',
     githubLink: "https://github.com/lucaaramos/PI-Foods",
     technologies: ['React',"NodeJS",'Express','Postgres', "CSS"],
   },
@@ -35,7 +35,7 @@ const projectsData = [
     title: 'Club Argentino Boyero de Berna',
     description: 'Descripción breve del proyecto 2.',
     imageUrl: boyero,
-    detailsLink: '/proyecto-2',
+    detailsLink: 'https://boyero-de-berna.vercel.app/',
     githubLink: "https://github.com/AlejoAvendanio/berna", // Enlaza a la página de detalles del proyecto
     technologies: ['React',"NodeJS",'Express', 'MySQL', "CSS"],
   },
@@ -44,8 +44,8 @@ const projectsData = [
     title: 'Pokedex',
     description: 'Descripción breve del proyecto 2.',
     imageUrl: pokedex,
-    detailsLink: '/proyecto-2',
-    githubLink: "https://github.com/AlejoAvendanio/berna", // Enlaza a la página de detalles del proyecto
+    detailsLink: 'https://github.com/lucaaramos/Pokedex',
+    githubLink: "https://github.com/lucaaramos/Pokedex", // Enlaza a la página de detalles del proyecto
     technologies: ["TypeScript",'Express', 'MySQL', "CSS"],
   }
   
